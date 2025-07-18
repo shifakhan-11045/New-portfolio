@@ -36,9 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/shifakhan-11045",
   linkedin: "https://www.linkedin.com/in/shifa-khan-wef/",
   gmail: "shifakhan11045@gmail.com",
- 
-  
-  
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,13 +47,15 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY  DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
- skills: [
+  skills: [
     emoji("⚡ Develop desktop and web applications using Java and Spring Boot"),
     emoji("⚡ Build RESTful APIs with Java and integrate frontend & backend"),
     emoji("⚡ Create real-time chat, issue-reporting, and barter system apps"),
-    emoji("⚡ Develop responsive web interfaces using HTML, CSS, JS, and Bootstrap"),
+    emoji(
+      "⚡ Develop responsive web interfaces using HTML, CSS, JS, and Bootstrap"
+    ),
     emoji("⚡ Manage databases with MySQL and integrate with backend services"),
-    emoji("⚡ Familiar with GitHub, Git, and deploying static websites"),
+    emoji("⚡ Familiar with GitHub, Git, and deploying static websites")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,16 +100,14 @@ const educationInfo = {
       logo: require("./assets/images/cdgi.png"),
       subHeader: "Bachelor of computer Science and Engineering ",
       duration: "August 2022 - May 2026",
-      desc: "CGPA: 7.72",
-      
+      desc: "CGPA: 7.72"
     },
     {
       schoolName: "New Taleem H.S. School",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Higher Secondary Education",
       duration: "2021 - 2022",
-      desc: "CGPA: 7.96",
-      
+      desc: "CGPA: 7.96"
     }
   ]
 };
@@ -150,9 +148,6 @@ const workExperiences = {
         "Built backend logic and WebSocket integration for real-time messaging.",
 
         "Managed user sessions and database interaction using Spring Boot."
-
-
-        
       ]
     },
     {
@@ -165,12 +160,8 @@ const workExperiences = {
         "Implemented item listing, search, and user-based barter matching logic.",
 
         "Handled API routes, user data, and database transactions in MongoDB."
-
-
-        
       ]
-    },
-    
+    }
   ]
 };
 
@@ -191,25 +182,26 @@ const bigProjects = {
     {
       image: require("./assets/images/cc.png"),
       projectName: "Campus Care",
-      projectDesc: "A web app for college students to anonymously report issues.Ensures privacy with a user-friendly interface.\nTech Stack: HTML, CSS, JavaScript, Java, MySQL"
-      
-        //  you can add extra buttons here.
-      
+      projectDesc:
+        "A web app for college students to anonymously report issues.Ensures privacy with a user-friendly interface.\nTech Stack: HTML, CSS, JavaScript, Java, MySQL"
+
+      //  you can add extra buttons here.
     },
 
     {
       image: require("./assets/images/bs.jpeg"),
       projectName: "Barter System",
-      projectDesc: "A platform where users exchange unused items with others without using money.Facilitates item listing, search, and trade requests.\nTech Stack: MongoDB, Express.js, React.js, Node.js",
-      
-        //  you can add extra buttons here.
-      
+      projectDesc:
+        "A platform where users exchange unused items with others without using money.Facilitates item listing, search, and trade requests.\nTech Stack: MongoDB, Express.js, React.js, Node.js"
+
+      //  you can add extra buttons here.
     },
-    
+
     {
       image: require("./assets/images/ca.png"),
       projectName: "Chatterly",
-      projectDesc: "A real-time chat application for secure one-on-one messaging.Includes login system, chat history, and live updates using WebSocket.\nTech Stack: Java, Spring Boot, WebSocket, MySQL, HTML, CSS, JavaScript",
+      projectDesc:
+        "A real-time chat application for secure one-on-one messaging.Includes login system, chat history, and live updates using WebSocket.\nTech Stack: Java, Spring Boot, WebSocket, MySQL, HTML, CSS, JavaScript",
       footerLink: [
         {
           name: "Visit Website",
@@ -284,14 +276,9 @@ const achievementSection = {
 
 // Blogs Section
 
-
-
 // Talks Sections
 
-
-
 // Podcast Section
-
 
 // Resume Section
 const resumeSection = {
@@ -331,7 +318,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  
   contactInfo,
   twitterDetails,
   isHireable,

@@ -58,10 +58,9 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
-            
-            
+
             <Twitter />
-            
+
             <Profile />
             <Footer />
             <ScrollToTopButton />
