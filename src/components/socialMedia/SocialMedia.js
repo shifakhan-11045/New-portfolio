@@ -80,17 +80,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.twitter ? (
-        <a
-          href={socialMediaLinks.twitter}
-          className="icon-button twitter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-twitter"></i>
-          <span></span>
-        </a>
-      ) : null}
+      {socialMediaLinks.hackerrank ? (
+  <a
+    href={socialMediaLinks.hackerrank}
+    className="icon-button hackerrank"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="fab fa-hackerrank"></i>
+    <span></span>
+  </a>
+) : null}
+
 
       {socialMediaLinks.medium ? (
         <a
